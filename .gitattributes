@@ -2,5 +2,10 @@
 *.meta linguist-detectable=false
 *.asmdef linguist-detectable=false
 
-# Force C# to be counted properly
+# Don't count shader files in language stats
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
+
+# Count all C# files as C#
 *.cs linguist-language=C#
