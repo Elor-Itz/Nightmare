@@ -1,0 +1,6 @@
+# Tell GitHub linguist to ignore Unity meta/config files
+*.meta linguist-detectable=false
+*.asmdef linguist-detectable=false
+
+# Force C# to be counted properly
+*.cs linguist-language=C#
